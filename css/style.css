@@ -1,0 +1,56 @@
+
+body{
+    font: 20px arial, sans-serif;
+}
+.navbar {
+    background-color: #52493A;
+}
+.nossa-empresa{
+    background-color: #7C8569;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #ffff;
+    
+}
+.margin{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.busca{
+    background-color:#A4AB80;
+    color: white;
+}
+.nossos-camping{
+    background-color: #E8E0AE;
+    color: white
+}
+
+footer{
+    background-color: #DE733E;
+}
+footer .container{
+    padding: 10px;
+}
+footer nav ul li a{
+    color: white;
+}
+footer nav .redes-sociais{
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
+}
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
+    transition: .2s;
+}
+footer nav .redes-sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+    color: #52493A;
+}
